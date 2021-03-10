@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#3494e6, #ec6ead);
+}
+.emoji {
+  font-size: 10rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.closed {
+  display: none;
+}
+.open {
+  display: none;
+}
+.text {
+  display: none;
+  font-size: 27px;
+  font-family: 'Redressed', cursive;
+}
+.active {
+  display: block;
+}
+
+.show {
+  display: block;
+}
